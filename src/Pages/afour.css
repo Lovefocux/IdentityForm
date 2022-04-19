@@ -1,0 +1,319 @@
+.four{
+    width:1100px;
+    background-color: #ffffff;
+    min-height:800px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 30px; */
+   }
+   
+   .fourall{
+       position: relative;
+       right: -10%;
+   }
+   
+   .A4content{
+       position: relative;
+       top: -50px;
+       display: flex;
+       justify-content:space-between;
+   }
+
+   .pagecancel{
+    display: flex;
+   }
+   
+   
+   .pagecancel button{
+       background-color:#B3BAC5;
+       color: #000;
+       display: flex;
+       align-items:center;
+       justify-content:space-between;
+       font-size:17px;
+       font-family: "Poppins";
+       font-weight:500;
+       height:50px;
+       width:151px;
+       padding:0px 20px;
+       border: none;
+       outline: none;
+   }
+
+
+   .pagecancel button.active{
+    background-color:#0747A6;
+    color: #fff;
+}
+   
+   .A4content .pagecancel button i{
+       font-size:20px;
+   }
+   
+   .A4content .pageadd i{
+       font-size:20px;
+       /* margin-top: -50px; */
+   }
+
+   /* const afour = document.querySelector"(".book"); */
+
+  
+   .pageadd button{
+       background-color:#B3BAC5;
+       display: flex;
+       align-items:center;
+       justify-content: space-between;
+       padding:0px 20px;
+       color:black;
+       height:50px;
+       width:151px;
+       border: none;
+       outline: none;
+       font-family: "Poppins";
+       font-weight:500;
+   }
+   
+   .collaborate button{
+       background-color:black;
+       color:#fff;
+       height:50px;
+       width:151px;
+       border: none;
+       outline: none;
+       
+       font-family: "Poppins";
+       font-weight:500;
+   }
+   .collaborate{
+       /* margin-left: 133%; */
+   }
+   
+   .forbutton{
+       display:flex
+   }
+   .forbutton button{
+       /* margin-left:10px; */
+   margin-right: 10px;
+   }
+   
+   .collaborating{
+       display:flex;
+       flex-direction:column;
+       margin-top: 100px;
+       align-items:center;
+       position:absolute;
+   }
+   
+   .innerdiv{
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       margin-top: 30px;
+   background-color:#F4F5F7;
+   height: 192px;
+       width: 1000px;
+       margin-left:50px;
+      
+   }
+   
+   .inner{
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       width:700px;
+       background-color:#B3BAC5;
+       left:40px;
+       height:1px;
+       position: relative;
+   }
+   
+   .innerdiv p{
+       font-family: "Poppins";
+       font-size: 12px; 
+       font-weight:500;
+   }
+   
+   .inner p{
+       position: absolute;
+       color:#B3BAC5;
+       font-family: "Poppins";
+       font-size: 12px;
+       left:40%;
+   top: -10px;
+   padding:0px 10px;
+   background-color:white;
+   }
+
+   .modal-title{
+       margin-bottom:0;
+        line-height: 1.5;
+        font-family: "Poppins";
+        font-size:18px;
+        font-weight: 700;
+        color: #091E42;
+
+   }
+ .modal-title p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size:  13px;
+    color: #091E42;
+ }
+
+.collaborator-contents{
+    margin-top:-40px;
+    margin-left:30px;
+}
+
+
+.modal-header .btn-close {
+    padding: 0.2rem 0.2rem;
+    /* margin: -0.5rem -0.5rem -0.5rem auto; */
+}
+
+.modal-body-contents{
+
+}
+
+
+.field{
+    display:flex;
+    align-items:center;
+}
+
+#formBasic{
+    padding: 20px;
+    font-size:15px;
+    font-family: "Poppins";
+    font-weight:400;
+    color: #091E42;
+}
+
+::placeholder{
+    color: #091E42;
+    font-size:  15px;
+    font-weight: 500;
+}
+
+.fields input{
+    width: 400px;
+    height:58px;
+    outline: none;
+    border: none;
+    color: #091E42;
+    border-bottom: 1px solid #000000;
+    background-color:#EBECF0;
+    margin-top:-50px;
+    }
+
+    form{
+        margin-bottom:-20px;
+    }
+
+    .modal-content { 
+        width: 600px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 0.3rem;
+    }
+
+
+    .modal-body {
+        position: relative;
+        /* flex: 1 1 auto; */
+        /* padding: 4rem; */
+        /* margin: 20px 0; */
+       
+    }
+    .modal-inner-content{
+        display:flex ;
+        justify-content:space-between;
+        margin-left: -70px;
+        margin-right:30px ;
+        margin-top: -90px;
+    }
+
+
+    .field .inputDropDown {
+        padding: 15px;
+        font-size: 15px;
+        font-family: "Poppins";
+        font-weight: 400;
+        /* width: 100px; */
+        color: #091E42;
+        border: none;
+        border-bottom: 1px solid #000000;
+        background-color: #EBECF0;
+        margin-top:65px ;
+        margin-left:30px;
+     }
+
+     .modal-contributor{
+         display: flex;
+         justify-content:space-between;
+     }
+
+     .modalImg h5{
+         font-family: "Poppins";
+         font-size:15px;
+         font-weight: 800;
+         color: #091E42;
+ 
+    }
+  .modalImg p{
+     font-family: "Poppins";
+     font-weight: 500;
+     font-size:  14px;
+     color: #091E42;
+  }
+.modalImg{
+    display: flex;
+    margin-left: -70px;
+    margin-top: 30px;
+}
+
+.modalImg img{
+    height: 60px;
+}
+
+.modalImg span{
+    margin-left:10px;
+    line-height: 1.5;
+}
+
+.modal-contributor .owner{
+    color: #091E42;
+    margin-top:30px;
+    font-style: italic;
+}
+
+.modal-content-btn{
+    float: right;
+    margin-top:-80px;
+    margin-right: 30px;
+}
+
+.modal-content-btn button{
+    height: 50px;
+    font-family: "Poppins";
+    font-weight: 400;
+    background-color:#1633A3 ;
+    font-size:15px;
+}
+
+/* .field{
+    border: 1px solid black;
+}
+
+.field-set{
+    position: relative;
+margin-top:20px;
+width: 200px;
+}
+
+.lable{
+position: absolute;
+left: 20px;
+top: -10px;
+padding:0px 20px;
+} */
+
