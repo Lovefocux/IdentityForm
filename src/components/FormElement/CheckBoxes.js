@@ -8,7 +8,7 @@ const CheckBoxes = () => {
 	};
 
 	return (
-		<div className="bio">
+		<div className="bio-description">
 			<div className="bioData-Long">
 				<div className="contentOne-Long">
 					<div className="titleContent">

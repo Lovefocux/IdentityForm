@@ -121,6 +121,7 @@
 
 .bioData-Long select{
 margin-left: 30px;
+padding-left: 10px;
 /* padding-bottom: 10px; */
 margin-bottom: 10px;
 width: 250px;
@@ -135,7 +136,7 @@ border-bottom: 1px solid #000000;
    padding-bottom: 15px;
 }
 
-.bio .bioData-Long {
+.bio-description .bioData-Long {
    width: 1050px;
    /* height: 500px; */
    background-color: #F4F5F7;
@@ -160,6 +161,7 @@ border-bottom: 1px solid #000000;
    background-color:#EBECF0;
    margin-bottom:20px;
    font-family: "poppins";
+   padding-left: 20px;
    }
 
    .checkboxes {
@@ -238,7 +240,7 @@ border-bottom: 1px solid #000000;
       font-family: "poppins";
      }
 
-.bio{
+.bio-description{
    min-height: 100%;
    display: flex;
    justify-content:center;
@@ -246,7 +248,7 @@ border-bottom: 1px solid #000000;
    font-family: "poppins";
 }
 
-.bio .bioData-header {
+.bio-description .bioData-header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -258,7 +260,7 @@ border-bottom: 1px solid #000000;
    margin-bottom: 40px;
 }
 
-.bio .BioHeader-content {
+.bio-description .BioHeader-content {
 	background: #f4f5f7;
 	display: flex;
 	align-items: center;
@@ -268,20 +270,20 @@ border-bottom: 1px solid #000000;
    border-left: 3px solid #4C9AFF;
 }
 
-.bio .BioHeader-text {
+.bio-description .BioHeader-text {
 	display: flex;
 	flex-direction: column;
 	font-size: 14px;
    font-family: "Poppins";
    padding: 0 145px 0 40px ;
 }
-.bio .BioHeader-text h3{
+.bio-description .BioHeader-text h3{
 	font-size: 32px;
    font-family: "Poppins";
    font-weight: 700;
    color: #000000;
 }
-.bio .BioHeader-text {
+.bio-description .BioHeader-text {
 	font-size: 18px;
    font-family: "Poppins";
    font-weight: 300;
@@ -293,7 +295,7 @@ border-bottom: 1px solid #000000;
    padding: 20px;
  }
 
-.bio .bioData{
+.bio-description .bioData-description{
  width: 1050px; 
  height: 500px; 
  background-color:#F4F5F7;
@@ -301,7 +303,7 @@ border-bottom: 1px solid #000000;
  margin-bottom: 30px;
 }
 
-.bio .bioData-reference2 {
+.bio-description .bioData-reference2 {
  width: 1050px; 
  height: 600px; 
  background-color:#F4F5F7;
@@ -356,7 +358,7 @@ height: 5px;
   margin-left: 15px;
 }
 
-.bio .contentOne .titleContent p{
+.bio-description .contentOne .titleContent p{
 font-size:14px;
 font-family: "Poppins";
 color: #000000;

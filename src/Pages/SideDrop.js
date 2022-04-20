@@ -62,8 +62,7 @@ const sort = () => {
               </div>
             </div>
 
-            <div
-              className="dragger"
+            <div className="dragger"
               // onDragEnd={sort}
               onDragEnd={() => {setDisplayBioData(true)}}
               draggable="true"

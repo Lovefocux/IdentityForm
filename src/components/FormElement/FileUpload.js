@@ -8,14 +8,7 @@ const FileUpload = () => {
 	}
 
 	return (
-		// <div>
-		//    <form action="">
-		//       <input type="file" className="myFile" name="filename"/>
-		//       <input type="submit" onSubmit={showFile}/>
-		//    </form>
-		// </div>
-
-		<div className="bio">
+		<div className="bio-description">
 			<div className="bioData-Long">
 				<div className="contentOne-Long">
 					<div className="titleContent">

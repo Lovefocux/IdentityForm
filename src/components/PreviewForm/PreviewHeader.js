@@ -1,10 +1,10 @@
 import React from 'react';
 import Platform from "../../Assets/Image/Platform-logo.png";
-import "../../Styles/Bio.css";
+import "../../Styles/description.css";
 
 function PreviewHeader() {
    return (
-      <div className="bio">
+      <div className="bio-description">
       <div className="BioData-header">
          <div className="BioHeader-content">
          <img src={Platform} alt="Platform" />

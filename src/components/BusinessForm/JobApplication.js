@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Platform from "../../Assets/Image/Platform-logo.png";
-import "../../Styles/Bio.css";
+import "../../Styles/description.css";
 
 function JobApplication(props) {
 	const [select, setSelect] = useState(false);

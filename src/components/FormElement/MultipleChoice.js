@@ -8,15 +8,7 @@ function MultipleChoice() {
 	};
 
 	return (
-		// <div>
-		//    <select className="multiple" name="multipleChoice" onClick={showSelect}>
-		//     <option value="option1">option1</option>
-		//     <option value="option2">option2</option>
-		//     <option value="option3">option3</option>
-		//    </select>
-		// </div>
-
-		<div className="bio">
+		<div className="bio-description">
 			<div className="bioData-Long">
 				<div className="contentOne-Long">
 					<div className="titleContent">

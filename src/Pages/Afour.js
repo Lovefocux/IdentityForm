@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderPage from "./HeaderPage";
-import BioData from "./BioData";
+import BioData from "../components/FormElement/BioData";
 import "./afour.css";
 import ShortText from "../components/FormElement/ShortText";
 import LongText from "../components/FormElement/LongText";

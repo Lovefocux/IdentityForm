@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../Styles/Bio.css";
+import "../../Styles/description.css";
 
 function EducationalData(props) {
 	const [select, setSelect] = useState(false);
@@ -8,8 +8,8 @@ function EducationalData(props) {
 		setSelect(!select);
 	};
 	return (
-		<div className="bio">
-			<div className="bioData">
+		<div className="bio-description">
+			<div className="bioData-description">
 				<div className="contentOne">
 					<div className="titleContent">
 						<h1>Educational Data</h1>

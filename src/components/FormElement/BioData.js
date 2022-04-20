@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "./Bio.css";
+import "../../Styles/description.css";
 
 function BioData() {
   const [select, setSelect] = useState(false);
@@ -10,9 +10,9 @@ function BioData() {
   };
 
   return (
-    <div className="bio">
-      <div className="bioData-long">
-        <div className="contentOne-long">
+    <div className="bio-description">
+      <div className="bioData-description">
+        <div className="contentOne">
           <div className="titleContent">
             <h1>Bio Data</h1>
             <p>Add Description(Optional)</p>
